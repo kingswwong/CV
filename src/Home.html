@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="../css/home.css" type="text/css" rel="stylesheet">
+    <style>
+        .email{
+            color: white;
+            text-align: center;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-name: fadeInBottom;
+        }
+    </style>
+</head>
+<body>
+<div id="home">
+    <div class="logo">
+        <span>Welcome</span>
+        <h1>Dean's Area</h1>
+    </div>
+    <div class="nav">
+        <div class="nav-inner"><a  href="javascript:void(0);" onclick="aboutLink()">ABOUT</a></div>
+        <div class="nav-inner"><a href="#">WORK</a></div>
+    </div>
+    <div class="email">
+        Email: 467271883@qq.com
+    </div>
+</div>
+<script>
+    function aboutLink() {
+        window.location.href="About.html"
+    }
+    function workLink() {
+        window.location.href="Work.html"
+    }
+</script>
+</body>
+</html>
